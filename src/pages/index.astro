@@ -1,20 +1,36 @@
 ---
-import Timeline from '../components/Timeline.astro';
-import Layout from '../layouts/Layout.astro';
+import Timeline from "../components/Timeline.astro";
+import Layout from "../layouts/Layout.astro";
 
-import { Writers } from '../data/writers';
-import Card from '../components/Card.astro';
+import { Writers } from "../data/writers";
+import Card from "../components/Card.astro";
 ---
 
 <Layout title="Tercer Encuentro Arquidioscesano de Laicos">
 	<main>
+		<section class="mb-5">
+			<Card
+				title="Material informativo para todo el taller"
+				resume=""
+				image="/folder.svg"
+				link="https://linktr.ee/encuentrodelaicos"
+				large={true}
+			/>
+		</section>
 		<Timeline />
 		<article>
 			<h2 class="text-gray-900">Recursos de las ponencias</h2>
-			<section class="w-full flex flex-row justify-around gap-3">
-				{Writers.map((writers) => (
-					<Card title={writers.title} image={writers.image} resume={writers.resume} link={writers.link} />
-				))}
+			<section class="w-full flex md:flex-row flex-col justify-around gap-3">
+				{
+					Writers.map((writers) => (
+						<Card
+							title={writers.title}
+							image={writers.image}
+							resume={writers.resume}
+							link={writers.link}
+						/>
+					))
+				}
 			</section>
 		</article>
 	</main>

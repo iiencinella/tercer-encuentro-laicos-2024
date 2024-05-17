@@ -3,7 +3,7 @@ export const Schedule = [
     hour:'9hs',
     description: 'Palabras de bienvenida del presidente de la Junta Arquidiocesana de Laicos, Hugo Pais',
     resume: '',
-    link: 'https://linktr.ee/encuentrodelaicos',
+    link: '',
   },
   {
     hour:'9:15hs',
