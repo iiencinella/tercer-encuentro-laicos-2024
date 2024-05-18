@@ -1,6 +1,6 @@
 export const Writers = [
   {
-    title: 'Los laicos en la iglesia',
+    title: 'El laico en la iglesia',
     image: '/church.svg',
     writable: [
       {
@@ -38,10 +38,15 @@ export const Writers = [
         resume: 'Ministros Extraordinarios de la Comunión(MEC), una reflexión personal.',
         link: 'https://drive.google.com/file/d/1Ok-ouun4cClrC5vA2sOD6Kj14JjsjieC/view?usp=sharing',
       },
+      {
+        title: 'Presentación del hogar de Cristo Nuestra Señora de Lourdes en el Encuentro de Laicos',
+        resume: 'Descripción de la historia y trabajo del Hogar de Cristo Nuestra Señora de Lourdes en la ciudad de Paraná.',
+        link: 'https://drive.google.com/file/d/1vkg56uceGG_iQijqUBwBLseY5KYYvxQ5/view?usp=sharing',
+      },
     ],
   },
   {
-    title: 'Los laicos en la politica',
+    title: 'El laico en la politica',
     image: '/politic.svg',
     writable: [
       {
@@ -62,7 +67,7 @@ export const Writers = [
     ],
   },
   {
-    title: 'Los laicos en la sociedad',
+    title: 'El laico en la sociedad',
     image: '/society.svg',
     writable: [
       {
